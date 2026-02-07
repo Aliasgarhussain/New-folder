@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Geo:ital@0;1&family=Nothing+You+Could+Do&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+US+Modern:wght@100..400&display=swap');
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="/1.png" alt=""></div>
+        <div class="nav-links">
+            <a href="/home">home</a>
+            <a href="#services">Services</a>
+            <a href="/about">about us</a>
+            <a href="/contact">contact us</a>
+        </div>
+        <div class="username">Username</div>
+    </nav>
+
+    <main>
+        <section id="home">
+            <div class="left">
+                <h2 class="header">Revitalize Your Clothes with Expert Laundry Services!</h2>
+                <p class="description">From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+                <a href="#services" class="serv-btn">Book a Service Today!</a>
+            </div>
+            <div class="right"><img src="/2.png" alt="laundry"></div>
+        </section>
+
+        <section class="achieve">
+            <div class="ach-cont">
+                <div class="cont-1">Achievements</div>
+                <div class="cont-2">
+                    <h4 class="cont-head">15+ years</h4>
+                    <p class="cont-desc">laundry services</p>
+                </div>
+                <div class="cont-2">
+                    <h4 class="cont-head">240+</h4>
+                    <p class="cont-desc">Happy customers</p>
+                </div>
+                <div class="cont-4">
+                    <h4 class="cont-head">2+ years</h4>
+                    <p class="cont-desc">experience</p>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="services-grid">
+                <div class="services-left">
+                  <h2>Our Services</h2>
+                  <p>Click on the "Add" button to add services to your cart</p>
+                  <div class="service-list">
+                        <div class="service-item" data-service='{"name":"Dry Clean", "price":200}'>
+                            <ion-icon name="water-outline" class="icon"></ion-icon>
+                            <span>Dry Clean</span>
+                            <span class="price">₹200</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                        <div class="service-item" data-service='{"name":"Wash & Fold", "price":100}'>
+                            <ion-icon name="shirt-outline" class="icon"></ion-icon>
+                            <span>Wash & Fold</span>
+                            <span class="price">₹100</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                        <div class="service-item" data-service='{"name":"Ironing", "price":30}'>
+                            <ion-icon name="hand-right-outline" class="icon"></ion-icon>
+                            <span>Ironing</span>
+                            <span class="price">₹30</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                        <div class="service-item" data-service='{"name":"Stain Removal", "price":50}'>
+                            <ion-icon name="warning-outline" class="icon"></ion-icon>
+                            <span>Stain Removal</span>
+                            <span class="price">₹50</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                        <div class="service-item" data-service='{"name":"Leather Cleaning", "price":900}'>
+                            <ion-icon name="shirt" class="icon"></ion-icon>
+                            <span>Leather Cleaning</span>
+                            <span class="price">₹900</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                        <div class="service-item" data-service='{"name":"Wedding Dress", "price":8000}'>
+                            <ion-icon name="heart-outline" class="icon"></ion-icon>
+                            <span>Wedding Dress</span>
+                            <span class="price">₹8000</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="services-right">
+                    <div class="right-top">
+                        <h3>Added Items</h3>
+                        <div class="cart-items"></div>
+                        <div class="cart-total">
+                          <strong>Total Amount: ₹<span id="total">0</span></strong>
+                        </div>
+                    </div>
+                    <div class="right-bottom">
+                        <h3>Book Now</h3>
+                        <button class="book-btn">Book Now</button>
+                        <form class="booking-form">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="tel" placeholder="Phone Number" required>
+                            <input type="email" placeholder="Email ID" required>
+                            <input type="tel" placeholder="Phone Number" required>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features" id="about">
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <ion-icon name="diamond-outline" class="feature-icon"></ion-icon>
+                    <h3>Premium Services</h3>
+                    <p>Guarantee quality care for your garments with our professional expertise.</p>
+                </div>
+                <div class="feature-item">
+                    <ion-icon name="flash-outline" class="feature-icon"></ion-icon>
+                    <h3>Quick Support</h3>
+                    <p>We're here to provide smooth support whenever you need us.</p>
+                </div>
+                <div class="feature-item">
+                    <ion-icon name="bicycle-outline" class="feature-icon"></ion-icon>
+                    <h3>Hassle Free Delivery</h3>
+                    <p>Enjoy worry-free laundry with our reliable pickup & delivery service.</p>
+                </div>
+                <div class="feature-item">
+                    <ion-icon name="wallet-outline" class="feature-icon"></ion-icon>
+                    <h3>Affordable Prices</h3>
+                    <p>Professional laundry care without breaking the bank.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="newsletter">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <h2>Subscribe to our Newsletter.</h2>
+                    <p>Stay updated with laundry tips, offers and more!</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="contact">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <img src="/1.png" alt="Logo">
+                    <p>Door Step At Connaught</p>png
+                </div>
+                <div class="footer-links">
+                    <h3>Important Links</h3>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#home">About</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><ion-icon name="call-outline"></ion-icon> +91 98765 43210</p>
+                    <div class="social-links">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
