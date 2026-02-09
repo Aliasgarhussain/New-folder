@@ -35,3 +35,5 @@ How to Run the Server
    - http://localhost:3000/about   – About page
    - http://localhost:3000/contact – Contact page
    - Any invalid path, for example http://localhost:3000/random, will show the custom 404 page.
+  
+5. Screenshots https://docs.google.com/document/d/1aUUVZw7NksOHdDEj5l9TvNRCCxuO8OMrUWBf3gAN5Jw/edit?usp=sharing
