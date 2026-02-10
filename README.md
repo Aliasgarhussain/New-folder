@@ -3,22 +3,6 @@
 This project implements a basic Node.js web server which operates a multi‑page laundry service website that includes home and about and contact pages through its basic `http` and `fs` and `path` modules. The system was developed as a school project to demonstrate routing capabilities and the ability to serve static content while managing 404 error conditions without utilizing Express framework.
 
 -------------------------------------------------------------------------------
-Project Structure
--------------------------------------------------------------------------------
-
-project-root/
-├─ server.js
-├─ public/
-│  ├─ index.html      # Home page (main laundry website)
-│  ├─ about.html      # About page
-│  ├─ contact.html    # Contact page
-│  ├─ 404.html        # Custom 404 error page
-│  ├─ style.css       # Shared CSS for all pages
-│  ├─ script.js       # Client-side JS for UI behaviour
-│  ├─ 1.png           # Image used in pages
-│  └─ 2.png           # Image used in pages
-└─ README.md
-
 -------------------------------------------------------------------------------
 How to Run the Server
 -------------------------------------------------------------------------------
